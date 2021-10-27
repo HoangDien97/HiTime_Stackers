@@ -1,5 +1,4 @@
     body {
-        /* font-family: 'Roboto', sans-serif;*/
         font-family: "Lato", serif;
         color: #3a445e;
         background: #fff;
@@ -7,7 +6,7 @@
         max-width: 100%;
         overflow-y: scroll;
     }
-    /* header ----------------------*/
+    /* Header ----------------------*/
     
     #header {
         margin-top: 10px;
@@ -97,8 +96,9 @@
     
     .submenuheader {
         display: flex;
-        max-width: 1430 px;
-        margin: 0 auto;
+        /* max-width: 1430 px; */
+        /* margin: 0 auto; */
+        margin-left: -156px;
     }
     
     .submenuheader .collection-submenu-title h2 {
@@ -148,11 +148,13 @@
     
     #banner {
         width: 100%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
+        margin-left: -150px;
     }
     
     #banner a img {
-        width: 100%;
+        /* width: 100%; */
+        width: 1430px;
         height: 648px;
     }
     /* Wp-Featured-Product-------- */
@@ -215,6 +217,14 @@
         position: relative;
     }
     
+    #stackers-video .stackers-video-block {
+        background-color: rgba(229, 232, 232, .89);
+        width: 1903px;
+        height: 519px;
+        position: absolute;
+        top: 190px;
+    }
+    
     #stackers-video .stackers-video-block-text {
         position: absolute;
         font-size: 16px;
@@ -225,7 +235,7 @@
         background: #fff;
         max-width: 346px;
         min-height: 346px;
-        right: 50px;
+        right: 120px;
         top: 175px;
     }
     
@@ -270,7 +280,7 @@
     /* PRODUCTS-NEW--------- */
     
     #products-new {
-        margin-top: 30px;
+        margin-top: 153px;
     }
     
     #products-new .title {
@@ -303,7 +313,7 @@
     
     #footer {
         background: #fff;
-        width: 1362px;
+        width: 1903pxpx;
     }
     
     .mid-footer {
